@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <doitshipping>
+                <active>0</active>
+                <model>Doit\CustomShipping\Model\Carrier\Standard</model>
+                <title>Doit Delivery</title>
+                <name>Standard Delivery</name>
+                <price>10</price>
+                <sort_order>90</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_surcharge>20</express_surcharge>
+            </doitshipping>
+        </carriers>
+    </default>
+</config>
